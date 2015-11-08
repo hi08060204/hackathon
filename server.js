@@ -8,6 +8,7 @@ app.use(express.static('public'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(function(req, res, next) {
+    res.setHeader('Cache-Control', 'public, max-age=31557600');
     console.log(req.method, req.url);
     next();
 });

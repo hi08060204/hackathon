@@ -1,7 +1,7 @@
 var unirest = require('unirest');
 var HashMap = require('hashmap');
 var Q = require('q');
-var eventURL = 'http://api.eventful.com/json/events/search?...&date=future&app_key=8JdkqRPV9zx485XW';
+var eventURL = 'http://api.eventful.com/json/events/search?...&date=future&page_size=50&sort_order=popularity&app_key=8JdkqRPV9zx485XW';
 var cityURL = 'http://api.skyscanner.net/apiservices/browsequotes/v1.0/US/USD/en-US/';
 var apiKey = 'apikey=ah507406726297845554149866835827';
 var departDone, arriveDone;
