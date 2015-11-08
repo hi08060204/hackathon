@@ -1,7 +1,7 @@
 var unirest = require('unirest');
 var HashMap = require('hashmap');
 var Q = require('q');
-var eventURL = 'http://api.eventful.com/json/events/search?...&date=future&page_size=50&sort_order=popularity&app_key=8JdkqRPV9zx485XW';
+var eventURL = 'http://api.eventful.com/json/events/search?...&date=future&page_size=20&app_key=8JdkqRPV9zx485XW';
 var cityURL = 'http://api.skyscanner.net/apiservices/browsequotes/v1.0/US/USD/en-US/';
 var apiKey = 'apikey=ah507406726297845554149866835827';
 var departDone, arriveDone;
@@ -43,7 +43,7 @@ exports.arriveFlightSearch = function(req, res, next) {
         unirest.get(URL)
         .header('Accept', 'application/json')
         .end(function(response) { 
-            for (var j=0;j<response.body['Quotes'].length;j++) {
+            for (var j=0;response.body['Quotes'] != undefined && j<response.body['Quotes'].length;j++) {
                 arrive.push(response.body['Quotes'][j]);
             }
             remain -= 1;
@@ -79,13 +79,13 @@ exports.departFlightSearch = function(req, res, next) {
         unirest.get(URL)
         .header('Accept', 'application/json')
         .end(function(response) {
-            for (var j=0;j<response.body['Quotes'].length;j++) {
+            for (var j=0;response.body['Quotes'] != undefined && j<response.body['Quotes'].length;j++) {
                 depart.push(response.body['Quotes'][j]);
             }
-            for (var j=0;j<response.body['Places'].length;j++) {
+            for (var j=0;response.body['Places'] != undefined && j<response.body['Places'].length;j++) {
                 places[response.body['Places'][j]['PlaceId']] = response.body['Places'][j];
             }
-            for (var j=0;j<response.body['Carriers'].length;j++) {
+            for (var j=0;response.body['Carriers'] != undefined && j<response.body['Carriers'].length;j++) {
                 carriers[response.body['Carriers'][j]['CarrierId']] = response.body['Carriers'][j];
             }
             remain -= 1;

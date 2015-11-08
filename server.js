@@ -30,5 +30,9 @@ app.use(function(err, req, res, next) {
     });
 }); 
 
+server.on('listening',function(){
+    console.log('ok, server is running');
+});
+
 app.listen(port);
 console.log('listening at port ' + port);

@@ -1660,3 +1660,280 @@ GET /search?origin=SFOA&destination=NYCA&departDate=2015-11-21&arriveDate=2015-1
 GET /findEvents/Cancun
 GET /findEvents/Portland
 GET /findEvents/Vancouver
+listening at port 3000
+GET /search?origin=SFOA&destination=NYCA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=null&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=PDXA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+listening at port 3000
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:746:11)
+    at Server._listen2 (net.js:1156:14)
+    at listen (net.js:1182:10)
+    at Server.listen (net.js:1267:5)
+    at EventEmitter.listen (/home/ubuntu/hackathon/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/hackathon/server.js:33:5)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+GET /findEvents/Taipei
+listening at port 3000
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:746:11)
+    at Server._listen2 (net.js:1156:14)
+    at listen (net.js:1182:10)
+    at Server.listen (net.js:1267:5)
+    at EventEmitter.listen (/home/ubuntu/hackathon/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/hackathon/server.js:33:5)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+GET /search?origin=SFOA&destination=MGAA&departDate=2015-11-21&arriveDate=2015-11-30
+listening at port 3000
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:746:11)
+    at Server._listen2 (net.js:1156:14)
+    at listen (net.js:1182:10)
+    at Server.listen (net.js:1267:5)
+    at EventEmitter.listen (/home/ubuntu/hackathon/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/hackathon/server.js:33:5)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+GET /search?origin=SFOA&destination=AUAA&departDate=2015-11-21&arriveDate=2015-11-30
+/home/ubuntu/hackathon/server.js:33
+server.on('listening',function(){
+^
+ReferenceError: server is not defined
+    at Object.<anonymous> (/home/ubuntu/hackathon/server.js:33:1)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+GET /search?origin=SFOA&destination=AUAA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=PDXA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=MGAA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=AUAA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=null&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=null&departDate=2015-11-21&arriveDate=2015-11-30
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
+GET /validCities/500
+GET /findEvents/Seoul
+GET /findEvents/Vancouver
+GET /findEvents/Providenciales
+GET /findEvents/Cancun
+GET /findEvents/Cartagena
+GET /findEvents/Managua
+GET /findEvents/Portland
+GET /findEvents/Oranjestad
+GET /findEvents/Manila
+GET /findEvents/Nassau
+GET /findEvents/Santiago
+GET /findEvents/Bangkok
+GET /findEvents/Okinawa
+GET /findEvents/Taipei
+GET /search?origin=SFOA&destination=YVRA&departDate=2015-11-21&arriveDate=2015-11-30
